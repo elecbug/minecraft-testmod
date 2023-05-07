@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "testmod:items/smile"
+        "layer0": "testmod:items/teleport_staff"
     }
 } 
