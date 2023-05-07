@@ -1,5 +1,8 @@
 {
     "itemGroup.testmod": "Test Mod Items",
 
-    "item.testmod.smile": "Smiley Face"
+    "item.testmod.smile": "Smiley Face",
+    "item.testmod.fruit": "Nyam Nyam Fruit",
+    "item.testmod.fuel": "Burning Sun",
+    "item.testmod.teleport_staff": "Plz TP"
 } 
