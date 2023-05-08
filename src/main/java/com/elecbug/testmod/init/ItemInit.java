@@ -39,7 +39,6 @@ public class ItemInit {
     public static final RegistryObject<Item> FUEL 
         = ITEMS.register("fuel", () -> new FuelItem(new Item.Properties().tab(ModCreativeTab.instance), 3200));
 
-
     public static final RegistryObject<Item> TELEPORT_STAFF 
         = ITEMS.register("teleport_staff", () -> new TeleportStaff(new Item.Properties().tab(ModCreativeTab.instance)));
 }

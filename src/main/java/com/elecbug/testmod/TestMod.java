@@ -2,6 +2,7 @@ package com.elecbug.testmod;
 
 import org.slf4j.Logger;
 
+import com.elecbug.testmod.init.BlockInit;
 import com.elecbug.testmod.init.ItemInit;
 import com.mojang.logging.LogUtils;
 
@@ -21,7 +22,8 @@ public class TestMod {
 
         modEventBus.addListener(this::setup);
         ItemInit.ITEMS.register(modEventBus);
-    
+        BlockInit.BLOCKS.register(modEventBus);
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
