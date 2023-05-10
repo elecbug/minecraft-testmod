@@ -1,4 +1,4 @@
-package com.elecbug.testmod.init;
+package com.elecbug.testmod.item;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.Mth;

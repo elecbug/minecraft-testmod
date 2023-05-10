@@ -1,6 +1,8 @@
 package com.elecbug.testmod.init;
 
 import com.elecbug.testmod.TestMod;
+import com.elecbug.testmod.item.FuelItem;
+import com.elecbug.testmod.item.TeleportStaff;
 
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTab;

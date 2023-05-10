@@ -1,4 +1,4 @@
-package com.elecbug.testmod.init;
+package com.elecbug.testmod.item;
 
 import javax.annotation.Nullable;
 
