@@ -5,5 +5,6 @@
     "item.testmod.fruit": "Nyam Nyam Fruit",
     "item.testmod.fuel": "Burning Sun",
     "item.testmod.teleport_staff": "Plz TP",
-    "block.testmod.test_block": "Smile Block"
+    "block.testmod.test_block": "Smile Block",
+    "block.testmod.wood_block": "Wood Block"
 } 

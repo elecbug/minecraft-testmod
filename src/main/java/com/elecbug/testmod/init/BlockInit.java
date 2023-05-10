@@ -3,6 +3,7 @@ package com.elecbug.testmod.init;
 import com.elecbug.testmod.TestMod;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.OreBlock;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -20,10 +21,11 @@ public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TestMod.MOD_ID);
 
     public static final RegistryObject<Block> TEST_BLOCK 
-        = BLOCKS.register("test_block", () -> new Block(Block.Properties.of(Material.STONE).strength(4f, 1200f)
-            .requiresCorrectToolForDrops().lightLevel((state) -> 15)));
-   
-    
+        = BLOCKS.register("test_block", () -> new OreBlock(Block.Properties.of(Material.STONE)));
+            
+    public static final RegistryObject<Block> WOOD_BLOCK 
+        = BLOCKS.register("wood_block", () -> new Block(Block.Properties.of(Material.WOOD)));
+        
     @SubscribeEvent
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
         final IForgeRegistry<Item> registry = event.getRegistry();
