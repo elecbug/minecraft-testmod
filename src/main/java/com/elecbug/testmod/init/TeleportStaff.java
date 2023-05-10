@@ -1,7 +1,5 @@
 package com.elecbug.testmod.init;
 
-import com.mojang.math.Vector3d;
-
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.Mth;
 import net.minecraft.world.InteractionHand;
